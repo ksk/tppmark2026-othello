@@ -1,0 +1,5 @@
+version = "1"
+description = "Untrusted Othello certificate syntax loader"
+requires = "rocq-runtime.plugins.ltac2"
+plugin(native) = "tpp_data_plugin.cmxs"
+archive(native) = "tpp_data_plugin.cmxa"

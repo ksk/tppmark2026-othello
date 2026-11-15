@@ -1,0 +1,2 @@
+requires = "rocq-runtime.plugins.ltac2"
+plugin(native) = "tpp_audit_plugin.cmxs"

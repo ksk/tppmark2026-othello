@@ -1,0 +1,62 @@
+-Q 4x4 TPP2026.Four
+-Q 6x6 TPP2026.Six
+-Q common TPP2026.Common
+-Q common/proofs TPP2026.Common.Proofs
+-Q boards TPP2026.Boards
+-Q proofs TPP2026.Proofs
+-Q proofs/equivalence TPP2026.Proofs.Equivalence
+-Q proofs/certificates TPP2026.Proofs.Certificates
+-Q solutions TPP2026.Solutions
+4x4/Rules.v
+4x4/Bounds.v
+4x4/Certificate.v
+4x4/CertificateResult.v
+4x4/RulesExamples.v
+common/Rules.v
+common/Specification.v
+common/proofs/RuleFacts.v
+common/proofs/SpecificationFacts.v
+common/Game.v
+common/proofs/GameFacts.v
+boards/Four.v
+proofs/equivalence/Four.v
+proofs/certificates/Four.v
+solutions/Othello4x4.v
+6x6/Rules.v
+6x6/Bounds.v
+6x6/Dag.v
+6x6/FastDag.v
+6x6/FastDecode.v
+6x6/NatBits.v
+6x6/BitRules.v
+6x6/BitDag.v
+6x6/BlockDag.v
+6x6/ProjectDag.v
+6x6/BinaryDag.v
+6x6/BinaryBytes.v
+6x6/Endgame.v
+6x6/CutDag.v
+6x6/StringDag.v
+6x6/Symmetry.v
+6x6/InitialSymmetry.v
+6x6/ImportDag.v
+6x6/TacticData.v
+6x6/RulesExamples.v
+6x6/NativeData.v
+6x6/Replay.v
+6x6/GridExp/GridRules.v
+6x6/GridExp/GridDag.v
+6x6/ExportExp/ExportDag.v
+6x6/ExportExp/ImportCheck.v
+boards/Six.v
+proofs/equivalence/Six.v
+6x6/Semantics/Optimal.v
+6x6/Semantics/OptimalReplay.v
+6x6/LinkExp/CompressedLink.v
+6x6/LinkExp/CompressedData.v
+6x6/LinkExp/BoundedAudit.v
+6x6/CertificateResult.v
+6x6/OptimalPlay.v
+proofs/certificates/Six.v
+solutions/Othello6x6.v
+proofs/Audit6.v

@@ -1,0 +1,23 @@
+{
+  "certificate_bytes": 11548,
+  "certificate_position_states": 305,
+  "expanded_certificate_nodes": 589,
+  "fuel": 15,
+  "initial_black_squares": [
+    6,
+    9
+  ],
+  "initial_white_squares": [
+    5,
+    10
+  ],
+  "search_states": 2875,
+  "shared_certificate_nodes": 197,
+  "shared_node_kinds": {
+    "black_replies": 69,
+    "pass": 19,
+    "terminal": 1,
+    "white_move": 108
+  },
+  "white_can_force_win": true
+}

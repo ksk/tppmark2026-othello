@@ -1,0 +1,172 @@
+{
+  "format_version": 4,
+  "toolchain": "The Rocq Prover, version 9.2\ncompiled with OCaml 5.3.0",
+  "scope": "Recorded checks of the Othello proofs and source distribution. Build measurements are from an earlier source revision. The current 6x6 sources have not had another full clean build.",
+  "proof_checks": {
+    "4x4": {
+      "source_build_passed": true,
+      "independent_kernel_check_passed": true
+    },
+    "6x6": {
+      "certificate_blocks_and_main_theorems_compiled": true,
+      "changed_proofs_and_dependent_main_theorems_recompiled": true,
+      "full_assumption_audit_run": false,
+      "independent_kernel_recheck_run": false
+    }
+  },
+  "clean_build_measurement": {
+    "source_revision": "Earlier revision, before the current module layout and proof changes. This measures build cost; it is not a clean-build claim about the current revision.",
+    "started": "2026-11-05T06:09:48.521358+00:00",
+    "finished": "2026-11-05T11:36:17.773390+00:00",
+    "elapsed_seconds": 19589.252032,
+    "board_sizes": [
+      "4x4",
+      "6x6"
+    ],
+    "precompiled_project_inputs": false,
+    "imported_build_caches": false,
+    "certificate_objects_built": 8372,
+    "native_plugins_built": [
+      "tpp_data",
+      "tpp_compressed",
+      "tpp_audit"
+    ],
+    "parallelism": {
+      "blocks": 8,
+      "link_batches": 1,
+      "data_and_bridges": 4
+    }
+  },
+  "subsequent_proof_checks": {
+    "started": "2026-11-15T00:03:26.229490+00:00",
+    "finished": "2026-11-15T00:53:17.991556+00:00",
+    "fresh_6x6_build": false,
+    "proof_modules_recompiled": [
+      "6x6/CertificateResult.v",
+      "6x6/Semantics/Optimal.v",
+      "6x6/Semantics/OptimalReplay.v",
+      "common/proofs/GameFacts.v",
+      "common/proofs/RuleFacts.v",
+      "common/proofs/SpecificationFacts.v",
+      "proofs/certificates/Six.v",
+      "proofs/equivalence/Four.v",
+      "proofs/equivalence/Six.v"
+    ],
+    "dependent_main_theorems_compiled": true,
+    "certificate_sources_hash_checked": 8376,
+    "reused_certificate_objects_hash_checked": 8372,
+    "reuse": "Certificate objects were built in the recorded source-only build. Source and object hashes were checked before reuse."
+  },
+  "source_formatting_check": {
+    "checked_at": "2026-11-15T02:03:40.538743+00:00",
+    "rocq_files_compared": 53,
+    "all_token_streams_match": true,
+    "method": "Rocq 9.2 CLexer token comparison with the checked proof sources.",
+    "scope": "Formatting changes only; no additional proof compilation."
+  },
+  "disk_measurement": {
+    "measured_at": "2026-11-07T12:32:49.134095+00:00",
+    "scope": "Both board sizes, earlier source revision. File lengths are counted once per device/inode.",
+    "certificate_source_bytes": 8924569050,
+    "additional_build_file_bytes": 32235561303,
+    "compiled_object_bytes": 32205345392,
+    "source_and_build_tree_bytes": 41160130353,
+    "temporary_peak_measured": false,
+    "archives_toolchain_and_os_swap_included": false
+  },
+  "fresh_build_allowance": {
+    "scope": "6x6, after unpacking the certificate sources.",
+    "build_output_budget_bytes": 50000000000,
+    "reserve_bytes": 20000000000,
+    "required_free_bytes": 70000000000,
+    "measured_peak": false
+  },
+  "certificate_inventory": {
+    "sha256": "d1772821a835f177f69c27217d8826bdef09c044faf05e9f3a9f821c5aad0059",
+    "files": 8376,
+    "source_files": 8372,
+    "bytes": 8924569050
+  },
+  "archive_integrity_record": "archives.json",
+  "distribution_commands": {
+    "archive_hash_checks_passed": true,
+    "unpacking_checked_with_small_fixtures": true,
+    "large_archives_extracted_with_unpacking_command": false,
+    "note": "The archive member hashes were checked separately. The unpacking command was tested with small fixtures."
+  },
+  "small_source_sha256": {
+    "4x4/Bounds.v": "bf084828d8ca40081f54fb8ee4bc52b90fdcff65cc88595a1cc4f2a9e2b58d2e",
+    "4x4/Certificate.v": "f7cd71516c636ad56109719e1eeeff7f2f1cc033ef0c2119fd8a280f064d7b60",
+    "4x4/CertificateResult.v": "8fffb9c40559ec5cc47e39557e9f4ded6dcd58a3d6a07edf2b1ca24141bfa59a",
+    "4x4/Rules.v": "4125eb25fc079c31e80d071f85c72953befd2279b0fc18f9817d15a326f95572",
+    "4x4/RulesExamples.v": "ce4db8d23de8956d4fb4483f9ba9ce55639774c74e4f733eb68dccec30f711fd",
+    "6x6/BinaryBytes.v": "4349482886221f37ec19e084b87fe21cd01854622908b0c381cec1be0d8bfa1e",
+    "6x6/BinaryDag.v": "7d0990fb99374e4d569de0498f03d2bc02e95d3afc15658d7da31f485381abe7",
+    "6x6/BitDag.v": "43f0853332c65fe7a50d8e4bdc0d5cd42e22db4a2c5546ad29f87ddba6b662a6",
+    "6x6/BitRules.v": "cd25bda62c69645b1fca6a17f13ce23d8d0f9af9d40f6eb306059aa3ca114768",
+    "6x6/BlockDag.v": "fd74c1b030e34d23ed4ff034901d9c31fe0681e20af7644f22311b15165b126d",
+    "6x6/Bounds.v": "bb489fa642b4c6e9afc8fa5cd9932fb92992189bd23741ffa74d1ef0e32518b8",
+    "6x6/CertificateResult.v": "4f3b067c83fd66dcbb61d4f4915f04649f833141e5479dd1bb1e5a915b8224ec",
+    "6x6/CutDag.v": "1abfd0c011265f1d30021b9a6cbfb10a91a7f876675db79bf0ababb3b9f6e2f0",
+    "6x6/Dag.v": "cba3be6d93aebc781b68626c1ff182b5239fd8e151b88ce823d969bd5a81ad41",
+    "6x6/Endgame.v": "b751df6ac3a25ac0af734190ecd94c2d499318ba2c04f12d300c8f5984fb3d4c",
+    "6x6/ExportExp/ExportDag.v": "1e80bbbec1dcf9cdd9a7d76e1b4805e30e88cffca02b51939584dc943f5ccdda",
+    "6x6/ExportExp/ImportCheck.v": "dee22fdb918ebee87a415483bf84a8e4dcce535340d9363c7315774e571121a7",
+    "6x6/FastDag.v": "8bb7c568a5853d7056f362ff9e27bfe858a878122dc2fe6af95321baa050797b",
+    "6x6/FastDecode.v": "6f9683753ac86af9d649c6bd94de5c7108a30ea68b0fbf47868e88a1cbed8cfc",
+    "6x6/GridExp/GridDag.v": "deac00f6125d4d25e90b0a99ddd00b945842547c32526afa52f9a826e6965dbe",
+    "6x6/GridExp/GridRules.v": "192018ed54887a0ed2c81fb74c0b2c7849ef36afb914e1beff1111f6a001ff96",
+    "6x6/ImportDag.v": "18df4d1da68dbbfd3eaaca2aa2105577dc668c05c37c9f46ead46b2eaee53392",
+    "6x6/InitialSymmetry.v": "4dcf4d053e0bc1ed27287398cf4fd7ac09007823b9ad178b32f539c8872fb1c2",
+    "6x6/LinkExp/BoundedAudit.v": "45ae0608cd90faa023cdbbfa9030bd76c73d0c2a595338003e9808a4f5b86500",
+    "6x6/LinkExp/CompressedData.v": "9c3feab502a3352dc3f86ddae8905b503eb2805bdf2597264f1afd10bff5e4d3",
+    "6x6/LinkExp/CompressedLink.v": "f76fe524b27c6eda01ce3cf9e5a3341f76a0492deaccd098df7edd0ab18c1355",
+    "6x6/NatBits.v": "06b504a4377d9286a684f76949f063aae52efa506ed85ba15a31fb6df7be93d3",
+    "6x6/NativeData.v": "105755dd9c72a81ffa4299b8b4e958cf551521a741f0f507c306c90111041a3a",
+    "6x6/OptimalPlay.v": "2062dfc60bcbbd37ba4586d3390192705968687300b6a42f6ce22d7b745104ce",
+    "6x6/ProjectDag.v": "27efbd33cb8da16d28e897d248944df7221adbcdaa5dd511ff49e04f60262089",
+    "6x6/Replay.v": "2829a8e27918ba137826eeb6b263300d72177308b396bcb1a5dc963fa4917b39",
+    "6x6/Rules.v": "e856699a2399a713dcc9d3d6242166d625b66924344ef702983fef77163c1049",
+    "6x6/RulesExamples.v": "6aa3d39b4301ea904a4e18384d8815e8609f6bacab74c4c75aa7e27c8830d9dd",
+    "6x6/Semantics/Optimal.v": "9be9bceccb86ebc493a57e5fc81c4da9ae3d7e238b780f89db3fda6a384c80ed",
+    "6x6/Semantics/OptimalReplay.v": "0952d1bc606e8fbbf0b47e2cbf4f81a44a717ff1c73ad053ef76a90c4992e1c0",
+    "6x6/StringDag.v": "e2138dec8310b12f20991f979b21eb06a4fcfec0211eff3196dbd7bb83c02c5d",
+    "6x6/Symmetry.v": "a2022d4c65cf6c963e2d6a7847a2a9639b7c9fe8b09fc0be211abf3a2f27a3bc",
+    "6x6/TacticData.v": "6e9e759c10718d17ab62002f2bdfa2195a511415cb199c931dede876d299a61b",
+    "6x6/build_blocks.py": "101e95926fade5ece87d776a7b8ff72b69ed430d88bd18be13257b9326bc1b81",
+    "6x6/build_parallel_links.py": "7f840ef6394f26f13b39eb3c649863550ee15e4412f74d331406f46a2e693240",
+    "6x6/manifest_paths.py": "81b08dcea9a2f638f163d58d9e25a1035038bb28e0d9c3e00d9a8ec9f36d17fe",
+    "6x6/native/tpp_audit/META": "82fa582444496ebf887fcb5bb8cf67d9f23493dbec4e05d5f2aae9b7eb990ca3",
+    "6x6/native/tpp_audit/tpp_audit_plugin.ml": "9fbb1afa50d9f93f9f946a40a872bee439f690a8490638fe962bb04262c7dcbe",
+    "6x6/native/tpp_compressed/META": "12a9eb1a43f8c3d7739a98e5e952f2694d8a6be0ad99fc7bf69de7fbb5efc535",
+    "6x6/native/tpp_compressed/tpp_compressed_plugin.ml": "90fd5c996d03f430b64f19c7242c252f3c12b55deb27dbb6ea2332c74ed1062f",
+    "6x6/native/tpp_data/META": "ada8496b9812e2e2d496c854474e356f323cb35662be49c082bd5bcebb86b837",
+    "6x6/native/tpp_data/tpp_data_plugin.ml": "d4310da204a2eca057893291f5d2f886f32a2348888907e1b238111f1aaa9a82",
+    "Makefile": "980ff5d8ccbf8d655735fc431d31d958542af30036093c246a3729562bd87315",
+    "_CoqProject": "4c40f8d46f856039c6d879e22ac2a599d80bb49e7d2473a2d64a698069072602",
+    "boards/Four.v": "c51dfb1eb4a3502b2d2c4e58fa3d05cc0646d9b03aa5184321d04c548a25710b",
+    "boards/Six.v": "6d69d7da1941a7f38f1c7292a1eab25075a3ca2bd646b7c92762a181a7764905",
+    "build.py": "dad31b5c6db09eada1d09295bbbdc0d8561a8a7ae05330eb6e55a780bbb28c66",
+    "common/Game.v": "4556050506af50e585d38c84024aae2e9ee7f951e2c927209d9487b282a6638d",
+    "common/Rules.v": "153a5a8fa1783b1753b2c3e45f275fd34013c5c969a38fdcd328674fa184ade2",
+    "common/Specification.v": "900490150f00f2a38473eb8f7c77af626420793e1cd6e4666b6644c65701d1b0",
+    "common/proofs/GameFacts.v": "41740c3dd0511bc039d66c5f05cb042587920cd8b20c248059dde81caca5024f",
+    "common/proofs/RuleFacts.v": "211d0f352b42ddcc4d49f7434fe07cc9036c5a4367358373643eb20921bbb070",
+    "common/proofs/SpecificationFacts.v": "84f961fc2d728a7ef6824ffaf0493a2ef3e4d5f0ad2406ee96ffaeef27bd49e6",
+    "distribution/archive_files.py": "a8d9829697ff6a6a587a3e183c4eec5c35408da1d07762f05e4f01c5e55d1025",
+    "distribution/check_docs.py": "4bf410de2c73c8129429f3de43fca7f9987b346d7643ced09151d7e9565c3195",
+    "distribution/check_files.py": "2dd87790c9e260ddb80084d1430193e2e04a4143134bba71262b12b00c872553",
+    "generate_certificate.py": "cd25283392b0d7b90a541f2d56539c1cae64569115e55e490f0b6428ade3c048",
+    "proofs/Audit6.v": "55485590224b4cd62e4d9373bd0ffdee881edaa4aae94c03fb91ca074904cc4b",
+    "proofs/certificates/Four.v": "e26b61ef90116afa20a2d1c3db82578d51faf5f98eae71a68c26251c7a08e64f",
+    "proofs/certificates/Six.v": "fd999c6fb53593360755dc4c94e6e513d99b5c08dc0f8b2ed6d3df6bd011f4d1",
+    "proofs/equivalence/Four.v": "4f36b96eb9d738aae251a2a7586cd40a18ab140ea6f680a95b345eddfbd2df04",
+    "proofs/equivalence/Six.v": "3a51fc7c7a743835ab70cafcdfbcf3c1da82e161351d70b745cbe606185e0fef",
+    "solutions/Othello4x4.v": "ceb2542b659ef238661b193a347bddca293e216e228c25140c9ebe34e8962f80",
+    "solutions/Othello6x6.v": "330da37957005851a34ed9f76f02e2f1382539d91309317ff8675b03210647d1"
+  },
+  "notes": [
+    "Normal Rocq compilation checks proof terms. The full 6x6 assumption audit and independent kernel recheck are separate checks and were not run.",
+    "No project objects or compiled plugins are included. A local build writes its own detailed records and logs to the selected build directory."
+  ]
+}

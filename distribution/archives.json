@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "verified_at_utc": "2026-11-15T05:48:39.833336+00:00",
+  "format": "Independent gzip-compressed USTAR archives; all are required.",
+  "extraction_root": "Repository root (each path starts with 6x6/).",
+  "inventory": {
+    "file": "certificates.tsv",
+    "sha256": "d1772821a835f177f69c27217d8826bdef09c044faf05e9f3a9f821c5aad0059",
+    "bytes": 866182,
+    "source_files": 8376,
+    "source_bytes": 8924569050
+  },
+  "archives": [
+    {
+      "file": "tppmark2026-othello-6x6-certificates-01-of-05.tar.gz",
+      "bytes": 586962086,
+      "sha256": "09e0831935d0e5ddb2f70f2ca1dcea1be4329ac491f7e5880377730fa17ec55c",
+      "source_files": 1324,
+      "source_bytes": 1797667953,
+      "tar_bytes": 1798696960,
+      "first_path": "6x6/InitialLower/B00000.v",
+      "last_path": "6x6/InitialLower/B01323.v"
+    },
+    {
+      "file": "tppmark2026-othello-6x6-certificates-02-of-05.tar.gz",
+      "bytes": 550625706,
+      "sha256": "36e0d0a270ab16e14be8eaac77e23f1278ae79ceea3c98ebe74f0ac86329398d",
+      "source_files": 3358,
+      "source_bytes": 1793116472,
+      "tar_bytes": 1795799040,
+      "first_path": "6x6/InitialLower/B01324.v",
+      "last_path": "6x6/InitialUpper/B00313.v"
+    },
+    {
+      "file": "tppmark2026-othello-6x6-certificates-03-of-05.tar.gz",
+      "bytes": 600701274,
+      "sha256": "a615775e38a35678f776693e7d6a0bb5799aa5402bf8756e3894a7c1a2905b39",
+      "source_files": 379,
+      "source_bytes": 1798629597,
+      "tar_bytes": 1798922240,
+      "first_path": "6x6/InitialUpper/B00314.v",
+      "last_path": "6x6/InitialUpper/B00692.v"
+    },
+    {
+      "file": "tppmark2026-othello-6x6-certificates-04-of-05.tar.gz",
+      "bytes": 608348504,
+      "sha256": "4e27bba4883820ac69900ba95b658c775418ca49f86264c55ab4db0668866dfb",
+      "source_files": 360,
+      "source_bytes": 1795394778,
+      "tar_bytes": 1795676160,
+      "first_path": "6x6/InitialUpper/B00693.v",
+      "last_path": "6x6/InitialUpper/B01052.v"
+    },
+    {
+      "file": "tppmark2026-othello-6x6-certificates-05-of-05.tar.gz",
+      "bytes": 568892691,
+      "sha256": "1ef4bfa1cd815d1e4f1adda261cdd3e69def8d4607c6294ae4f490ea39c822d4",
+      "source_files": 2955,
+      "source_bytes": 1739760250,
+      "tar_bytes": 1742110720,
+      "first_path": "6x6/InitialUpper/B01053.v",
+      "last_path": "6x6/InitialUpperLocalCompact/manifest.json"
+    }
+  ],
+  "archive_bytes": 2915530261,
+  "verification": {
+    "all_source_hashes_match_inventory": true,
+    "all_archive_member_hashes_match_inventory": true,
+    "exact_inventory_coverage_without_duplicates": true,
+    "regular_files_only": true,
+    "gzip_crc_checked": true,
+    "system_tar_member_lists_match": true,
+    "every_archive_under_2_gib": true
+  }
+}
